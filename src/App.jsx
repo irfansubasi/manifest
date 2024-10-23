@@ -1,11 +1,9 @@
+import { Carousel } from '@material-tailwind/react';
 import './App.css';
+import './styles/carousel.css';
 
 function App() {
-  return (
-    <>
-      <p className="underline text-4xl">akjhsfıahjsfk</p>
-    </>
-  );
+  return <></>;
 }
 
 export default App;

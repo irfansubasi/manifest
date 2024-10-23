@@ -60,6 +60,7 @@ function App() {
           </Swiper>
         </div>
       </header>
+      {'test'}
     </>
   );
 }

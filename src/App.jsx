@@ -1,4 +1,5 @@
 import './App.css';
+import './fonts/fonts.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/bundle';
 
@@ -59,8 +60,18 @@ function App() {
             </SwiperSlide>
           </Swiper>
         </div>
+        <div className="contact absolute bottom-[50px] left-[50px]">
+          <ul className="flex gap-x-5">
+            <li>
+              <a target="_blank" href="https://wa.me/905464781881">
+                WHATSAPP
+              </a>
+            </li>
+            <span> | </span>
+            <li>HEMEN ARA</li>
+          </ul>
+        </div>
       </header>
-      {'test'}
     </>
   );
 }

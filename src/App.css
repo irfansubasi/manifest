@@ -5,3 +5,40 @@
 .card-text {
   background: var(--light-brown);
 }
+
+.res-section {
+  position: relative;
+  background: url('../assets/images/16.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.res-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8); /* %50 opaklıkla siyah */
+  z-index: 1;
+}
+
+@media (max-width: 1325px) {
+  .res-text {
+    padding: 2rem !important;
+    width: 100% !important;
+  }
+
+  .res-img {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 980px) {
+  .res-div {
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+}

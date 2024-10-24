@@ -18,6 +18,7 @@ import MenuItem from './components/MenuItem';
 
 import menuData from './data/menu.json';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -37,7 +38,11 @@ function App() {
 
   return (
     <>
-      <header className="w-full h-dvh relative flex justify-center items-center">
+      <Navbar />
+      <header
+        id="home"
+        className="w-full h-dvh relative flex justify-center items-center"
+      >
         <div className="container z-50 mx-auto px-7 flex justify-center items-center">
           <img src={logo} alt="" className="w-[40rem]" />
         </div>
@@ -93,14 +98,16 @@ function App() {
             </li>
             <span> | </span>
             <li>
-              <a target="_blank" href="tel:05331451741"></a>HEMEN ARA
+              <a target="_blank" href="tel:05331451741">
+                HEMEN ARA
+              </a>
             </li>
           </ul>
         </div>
       </header>
       <main>
         <section className="info-section container mx-auto">
-          <div className="about-us mt-56">
+          <div id="about" className="about-us mt-56">
             <h1
               data-aos="fade-up"
               className="text-center text-6xl font-IvyMode-Bold mb-10"
@@ -139,7 +146,7 @@ function App() {
             </div>
           </div>
 
-          <div className="desc1 mt-56">
+          <div className="desc1 mt-56" id="lorem">
             <h1
               data-aos="fade-up"
               className="text-center text-6xl font-IvyMode-Bold mb-10"
@@ -178,13 +185,15 @@ function App() {
           </div>
         </section>
 
-        <section className="menu-section container mx-auto text-center mt-52 py-12">
+        <section
+          id="menu"
+          className="menu-section container mx-auto text-center mt-52 py-12"
+        >
           <h1 data-aos="fade-up" className="mb-8 text-6xl font-IvyMode-Bold">
             MENÜ
           </h1>
           {Object.keys(menuData).map((categoryKey, categoryIndex) => (
             <Accordion
-              data-aos="zoom-in"
               key={categoryIndex}
               className={`bg-transparent text-[#b59f73] shadow-none drop-shadow-none py-4 ${
                 categoryIndex !== Object.keys(menuData).length - 1
@@ -198,7 +207,10 @@ function App() {
                 aria-controls={`panel${categoryIndex}bh-content`}
                 id={`panel${categoryIndex}bh-header`}
               >
-                <Typography className="w-full text-center text-4xl font-IvyMode-SemiBold">
+                <Typography
+                  data-aos="zoom-in"
+                  className="w-full text-center text-4xl font-IvyMode-SemiBold"
+                >
                   {menuData[categoryKey].title}
                 </Typography>
               </AccordionSummary>
@@ -223,6 +235,57 @@ function App() {
               </AccordionDetails>
             </Accordion>
           ))}
+        </section>
+
+        <section className="res-section">
+          <div className="res-div h-[100vh] flex flex-col md:flex-row items-center justify-center md:justify-between">
+            <div className="res-img w-full md:w-1/2 z-50" data-aos="fade-right">
+              <img
+                src="./assets/images/4.webp"
+                alt="Sol Resim"
+                className="w-full h-auto rounded"
+              />
+            </div>
+
+            <div
+              className="res-text w-full md:w-1/2 bg-transparent md:w-1/2 p-10 md:p-32 card-text z-50"
+              data-aos="fade-left"
+            >
+              <h1 className="font-IvyMode-Regular text-4xl mb-8 font-bold">
+                Rezervasyon için;
+              </h1>
+              <p className="font-bold">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+                quaerat ab provident ad accusantium, doloremque qui architecto
+                rem dolorem cumque quae quas quisquam ipsa. Beatae doloribus
+                distinctio veniam incidunt accusamus.
+                <br />
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+                magnam!
+                <br />
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt, amet! Quas reiciendis est assumenda quidem dignissimos
+                ducimus aliquam architecto ad.
+                <br />
+                <br />
+                <ul className="flex gap-x-5">
+                  <li>
+                    <a target="_blank" href="https://wa.me/905464781881">
+                      WHATSAPP
+                    </a>
+                  </li>
+                  <span> | </span>
+                  <li>
+                    <a target="_blank" href="tel:05331451741">
+                      HEMEN ARA
+                    </a>
+                  </li>
+                </ul>
+              </p>
+            </div>
+          </div>
         </section>
       </main>
       <Footer />

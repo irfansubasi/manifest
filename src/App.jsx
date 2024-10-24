@@ -25,6 +25,9 @@ function App() {
 
   const [expanded, setExpanded] = useState(false);
 
+  const [logoScale, setLogoScale] = useState(1);
+  const [isLogoFixed, setIsLogoFixed] = useState(false);
+
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
   };
@@ -36,6 +39,24 @@ function App() {
     });
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const scaleValue = Math.max(0.3, 1 - scrollY / 100);
+      setLogoScale(scaleValue);
+
+      if (window.scrollY > 100) {
+        setIsLogoFixed(true);
+      } else {
+        setIsLogoFixed(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <>
       <Navbar />
@@ -44,7 +65,14 @@ function App() {
         className="w-full h-dvh relative flex justify-center items-center"
       >
         <div className="container z-50 mx-auto px-7 flex justify-center items-center">
-          <img src={logo} alt="" className="w-[40rem]" />
+          <img
+            src={logo}
+            alt=""
+            className={`${
+              isLogoFixed ? 'fixed top-[-60px] transition' : ''
+            } w-[40rem] transition-transform duration-1000`}
+            style={{ transform: `scale(${logoScale})` }}
+          />
         </div>
         <div className="h-full inset-0 bg-black opacity-[0.35] absolute">
           <Swiper
@@ -153,11 +181,8 @@ function App() {
             >
               Lorem
             </h1>
-            <div className="flex flex-col-reverse md:flex-row items-center justify-between">
-              <div
-                className="w-full md:w-1/2 p-8 card-text"
-                data-aos="fade-left"
-              >
+            <div className="flex flex-col-reverse md:flex-row items-center justify-center">
+              <div className="w-full p-8 card-text" data-aos="fade-left">
                 <p className="text-lg">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Aperiam placeat autem perspiciatis molestiae molestias, beatae
@@ -174,11 +199,11 @@ function App() {
                   nam inventore.
                 </p>
               </div>
-              <div className="w-full md:w-1/2" data-aos="fade-right">
+              <div className="" data-aos="fade-right">
                 <img
                   src="./assets/images/food1.jpg"
                   alt="Sol Resim"
-                  className="w-full h-auto rounded"
+                  className="w-[60rem] h-auto rounded"
                 />
               </div>
             </div>
@@ -237,9 +262,9 @@ function App() {
           ))}
         </section>
 
-        <section className="res-section">
+        <section id="reservation" className="res-section">
           <div className="res-div h-[100vh] flex flex-col md:flex-row items-center justify-center md:justify-between">
-            <div className="res-img w-full md:w-1/2 z-50" data-aos="fade-right">
+            <div className="res-img w-full md:w-1/2 z-40" data-aos="fade-right">
               <img
                 src="./assets/images/4.webp"
                 alt="Sol Resim"

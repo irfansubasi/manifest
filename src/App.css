@@ -42,3 +42,21 @@
     justify-content: center !important;
   }
 }
+
+@media (max-width: 1086px) {
+  footer {
+    padding: 2rem;
+  }
+}
+
+#menu {
+  scroll-margin-top: 150px;
+}
+
+#about {
+  scroll-margin-top: 190px;
+}
+
+#lorem {
+  scroll-margin-top: 100px;
+}

@@ -4,19 +4,19 @@ const Footer = () => {
   return (
     <footer className="bg-transparent text-[#b59f73] py-10">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-        <div className="flex flex-col space-y-4 text-center sm:text-left">
-          <div className="flex justify-center sm:justify-start items-center ">
-            <h2 className="text-3xl font-semibold font-IvyMode-Regular sm:hidden">
+        <div className="flex flex-col space-y-4 text-center md:text-left">
+          <div className="flex justify-center md:justify-start items-center ">
+            <h2 className="text-3xl font-semibold font-IvyMode-Regular md:hidden">
               Manifest
             </h2>
-            <img src={logo2} alt="Logo" className="w-40 hidden sm:block" />
+            <img src={logo2} alt="Logo" className="w-40 hidden md:block" />
           </div>
-          <p className="text-sm sm:text-base md:text-lg">
+          <p className="text-md md:text-base md:text-lg">
             Atakent, 6398. Sk. 1/A, 35550 <br /> Karşıyaka/İzmir
           </p>
           <div className="flex flex-col space-y-2">
-            <p className="text-sm sm:text-base md:text-lg">+905380247094</p>
-            <p className="text-sm sm:text-base md:text-lg">
+            <p className="text-md md:text-base md:text-lg">+905380247094</p>
+            <p className="text-md md:text-base md:text-lg">
               manifest@gmail.com
             </p>
           </div>
@@ -30,15 +30,15 @@ const Footer = () => {
           />
         </div>
 
-        <div className="flex flex-col space-y-4 text-center sm:text-right">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold font-IvyMode-Regular">
+        <div className="flex flex-col space-y-4 text-center md:text-right">
+          <h2 className="text-2xl md:text-3xl md:text-4xl font-semibold font-IvyMode-Regular">
             Hızlı Erişim
           </h2>
           <ul className="space-y-1 md:space-y-2">
             <li>
               <a
                 href="#menu"
-                className="hover:underline text-sm sm:text-base md:text-lg"
+                className="hover:underline text-md md:text-base md:text-lg"
               >
                 Menü
               </a>
@@ -46,17 +46,17 @@ const Footer = () => {
             <li>
               <a
                 href="#about"
-                className="hover:underline text-sm sm:text-base md:text-lg"
+                className="hover:underline text-md md:text-base md:text-lg"
               >
                 Hakkımızda
               </a>
             </li>
             <li>
               <a
-                href="#contact"
+                href="#reservation"
                 className="hover:underline text-sm sm:text-base md:text-lg"
               >
-                İletişim
+                Rezervasyon
               </a>
             </li>
           </ul>
@@ -83,7 +83,7 @@ const Footer = () => {
         </a>
         <span className="hidden md:inline">|</span>
         <a
-          href="https://www.facebook.com"
+          href="https://www.tripadvisor.com"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:underline text-sm sm:text-base md:text-lg"

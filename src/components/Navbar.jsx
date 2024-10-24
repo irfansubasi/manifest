@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`z-[500] fixed top-0 left-0 right-0 h-[100px]`}
+        className={`z-[500] fixed top-0 left-0 right-0 h-[100px] flex items-center justify-between transition-all duration-300`}
         style={{
           background: isOpen
             ? 'linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))'
@@ -19,7 +19,7 @@ function Navbar() {
       >
         <div className="relative z-[100]">
           <button
-            className="text-white p-3 focus:outline-none fixed top-4 right-4"
+            className="text-white p-3 focus:outline-none fixed top-7 left-10"
             onClick={toggleMenu}
           >
             <div
@@ -40,37 +40,56 @@ function Navbar() {
           </button>
         </div>
 
-        {/* Full Screen Overlay Menu */}
         <div
           className={`fixed inset-0 bg-[#201c14] z-[99] transition-transform duration-300 ${
             isOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
         >
           <div className="flex justify-center items-center h-full">
-            <ul className="font-IvyMode-Bold text-[#b59f73] text-3xl space-y-8 text-center">
+            <ul className="font-IvyMode-Regular text-[#b59f73] text-7xl space-y-8 text-center">
               <li>
-                <a href="#home" onClick={toggleMenu}>
+                <a
+                  className="hover:underline"
+                  href="#home"
+                  onClick={toggleMenu}
+                >
                   Anasayfa
                 </a>
               </li>
               <li>
-                <a href="#about" onClick={toggleMenu}>
+                <a
+                  className="hover:underline"
+                  href="#about"
+                  onClick={toggleMenu}
+                >
                   Hakkımızda
                 </a>
               </li>
               <li>
-                <a href="#lorem" onClick={toggleMenu}>
+                <a
+                  className="hover:underline"
+                  href="#lorem"
+                  onClick={toggleMenu}
+                >
                   İstenilen Bölüm
                 </a>
               </li>
               <li>
-                <a href="#menu" onClick={toggleMenu}>
+                <a
+                  className="hover:underline"
+                  href="#menu"
+                  onClick={toggleMenu}
+                >
                   Menü
                 </a>
               </li>
               <li>
-                <a href="#contact" onClick={toggleMenu}>
-                  İletişim
+                <a
+                  className="hover:underline"
+                  href="#reservation"
+                  onClick={toggleMenu}
+                >
+                  Rezervasyon
                 </a>
               </li>
             </ul>

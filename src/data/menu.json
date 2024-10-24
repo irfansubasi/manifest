@@ -1,0 +1,192 @@
+{
+  "seafood": {
+    "title": "Deniz Ürünleri",
+    "items": [
+      {
+        "id": 1,
+        "name": "Izgara Levrek",
+        "description": "Taze levrek, zeytinyağı ve baharatlarla ızgara."
+      },
+      {
+        "id": 2,
+        "name": "Karides Güveç",
+        "description": "Karides, domates sosu ve baharatlarla pişirilmiş güveç."
+      },
+      {
+        "id": 3,
+        "name": "Kalamar Tava",
+        "description": "Pane harcı ile kaplanmış kalamar, yanında aioli sos ile."
+      },
+      {
+        "id": 4,
+        "name": "Sushi Tabak",
+        "description": "Çeşitli sushi ruloları ve sashimi."
+      },
+      {
+        "id": 5,
+        "name": "Levrek Ceviche",
+        "description": "Marinade edilmiş levrek, limon suyu ve sebzelerle servis edilir."
+      },
+      {
+        "id": 6,
+        "name": "Somon Izgara",
+        "description": "Zeytinyağı ve baharatlarla marine edilmiş, ızgarada pişirilmiş somon."
+      },
+      {
+        "id": 7,
+        "name": "Karides Tava",
+        "description": "Taze karides, baharatlarla sotelenmiş."
+      },
+      {
+        "id": 8,
+        "name": "Balık Tacos",
+        "description": "Izgara balık, sebzeler ve salsa ile tortilla içinde."
+      }
+    ]
+  },
+  "alcohol": {
+    "title": "Alkollü İçecekler",
+    "items": [
+      {
+        "id": 1,
+        "name": "Chardonnay",
+        "description": "Fransız Chardonnay, hafif ve meyvemsi bir tat."
+      },
+      {
+        "id": 2,
+        "name": "Merlot",
+        "description": "Kırmızı Merlot, yumuşak tanenli ve zengin bir tat."
+      },
+      {
+        "id": 3,
+        "name": "Bira",
+        "description": "Serinletici ve hafif."
+      },
+      {
+        "id": 4,
+        "name": "Meyve Şarapları",
+        "description": "Ev yapımı meyve şarapları, değişken tatlarla."
+      },
+      {
+        "id": 5,
+        "name": "Prosecco",
+        "description": "İtalyan köpüklü şarabı, hafif ve ferahlatıcı."
+      },
+      {
+        "id": 6,
+        "name": "Mojito",
+        "description": "Beyaz rom, taze nane, şeker, limon suyu ve soda ile hazırlanmış ferahlatıcı bir kokteyl."
+      },
+      {
+        "id": 7,
+        "name": "Pina Colada",
+        "description": "Rom, hindistancevizi sütü ve ananas suyu ile hazırlanan tropikal bir kokteyl."
+      },
+      {
+        "id": 8,
+        "name": "Negroni",
+        "description": "Gin, vermut ve Campari ile yapılan klasik İtalyan kokteyli."
+      },
+      {
+        "id": 9,
+        "name": "Daiquiri",
+        "description": "Beyaz rom, limon suyu ve şeker ile yapılan ferahlatıcı bir kokteyl."
+      },
+      {
+        "id": 10,
+        "name": "Caipirinha",
+        "description": "Brezilya'nın yerel içkisi cachaça, şeker ve lime ile hazırlanır."
+      },
+      {
+        "id": 11,
+        "name": "Sangria",
+        "description": "Şarap, meyve parçaları ve soda ile yapılan serinletici bir içecek."
+      },
+      {
+        "id": 12,
+        "name": "Bellini",
+        "description": "Şampanya ve şeftali püresi ile yapılan İtalyan içeceği."
+      }
+    ]
+  },
+  "italian_dishes": {
+    "title": "İtalyan Yemekleri",
+    "items": [
+      {
+        "id": 1,
+        "name": "Spaghetti Aglio e Olio",
+        "description": "Sarımsak, zeytinyağı ve pul biber ile hazırlanan klasik İtalyan makarnası."
+      },
+      {
+        "id": 2,
+        "name": "Margherita Pizza",
+        "description": "Domates sosu, mozzarella peyniri ve taze fesleğen ile yapılan pizza."
+      },
+      {
+        "id": 3,
+        "name": "Risotto",
+        "description": "Kremalı pirinç risottosu, mantar ve sebzelerle."
+      },
+      {
+        "id": 4,
+        "name": "Lasagna",
+        "description": "Kat kat makarna, et sosu ve beşamel sos ile yapılan klasik İtalyan yemeği."
+      }
+    ]
+  },
+  "desserts": {
+    "title": "Tatlılar",
+    "items": [
+      {
+        "id": 1,
+        "name": "Mille-Feuille",
+        "description": "Kat kat milföy hamuru ve vanilya kreması ile yapılan Fransız tatlısı."
+      },
+      {
+        "id": 2,
+        "name": "Pavlova",
+        "description": "Mereng tabanı üzerinde krema ve taze meyveler ile sunulan hafif tatlı."
+      },
+      {
+        "id": 3,
+        "name": "Crème Brûlée",
+        "description": "Vanilyalı krema, üzeri karamelize şeker ile kaplanmış klasik Fransız tatlısı."
+      },
+      {
+        "id": 4,
+        "name": "Tiramisu",
+        "description": "Kahve, mascarpone peyniri ve kakao ile hazırlanan zengin İtalyan tatlısı."
+      },
+      {
+        "id": 5,
+        "name": "Chocolate Soufflé",
+        "description": "Hafif ve kabarık çikolatalı sufle, sıcak servis edilir."
+      },
+      {
+        "id": 6,
+        "name": "Cheesecake",
+        "description": "Kremalı peynirle yapılan, bisküvi tabanlı ve üzerine meyve sosu eklenmiş tatlı."
+      },
+      {
+        "id": 7,
+        "name": "Fruit Tart",
+        "description": "Kıtır hamur, pastacı kreması ve taze meyveler ile hazırlanan özel tatlı."
+      },
+      {
+        "id": 8,
+        "name": "Saffron Panna Cotta",
+        "description": "Safran ile zenginleştirilmiş, kremsi bir İtalyan tatlısı."
+      },
+      {
+        "id": 9,
+        "name": "Gulab Jamun",
+        "description": "Şeker şerbetinde bekletilen, kızartılmış süt tozu topları, Hint mutfağına özgü."
+      },
+      {
+        "id": 10,
+        "name": "Baklava",
+        "description": "Kat kat hamur ile yapılan, ceviz ve fıstık ile doldurulmuş, şerbetli geleneksel tatlı."
+      }
+    ]
+  }
+}

@@ -2,3 +2,18 @@
   font-family: 'Poppins Regular';
   src: url('../fonts/Poppins-Regular.ttf');
 }
+
+@font-face {
+  font-family: 'IvyMode-Regular';
+  src: url('../fonts/IvyMode-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'IvyMode-SemiBold';
+  src: url('../fonts/IvyMode-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'IvyMode-Bold';
+  src: url('../fonts/IvyMode-Bold.ttf');
+}

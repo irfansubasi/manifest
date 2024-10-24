@@ -10,8 +10,22 @@ import logo from './assets/manifestgold.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import Accordion from '@mui/material/Accordion';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import Typography from '@mui/material/Typography';
+import MenuItem from './components/MenuItem';
+
+import menuData from './data/menu.json';
+
 function App() {
   const [activeIndex, setActiveIndex] = useState(0);
+
+  const [expanded, setExpanded] = useState(false);
+
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
+  };
 
   useEffect(() => {
     AOS.init({
@@ -141,6 +155,46 @@ function App() {
               />
             </div>
           </div>
+        </section>
+
+        <section className="menu-section container mx-auto text-center py-12">
+          <h1 className="mb-8 text-4xl font-IvyMode-Bold">MENÜ</h1>
+          {Object.keys(menuData).map((categoryKey, categoryIndex) => (
+            <Accordion
+              key={categoryIndex}
+              className="bg-[#2b251b] text-[#b59f73]"
+              expanded={expanded === `panel${categoryIndex}`}
+              onChange={handleChange(`panel${categoryIndex}`)}
+            >
+              <AccordionSummary
+                aria-controls={`panel${categoryIndex}bh-content`}
+                id={`panel${categoryIndex}bh-header`}
+              >
+                <Typography className="w-full text-center text-4xl font-IvyMode-SemiBold">
+                  {menuData[categoryKey].title}
+                </Typography>
+              </AccordionSummary>
+              <AccordionDetails>
+                <div>
+                  {menuData[categoryKey].items.map((item, index) => {
+                    if (index % 2 === 0) {
+                      const leftItem = item;
+                      const rightItem =
+                        menuData[categoryKey].items[index + 1] || {};
+                      return (
+                        <MenuItem
+                          key={index}
+                          leftItem={leftItem}
+                          rightItem={rightItem}
+                        />
+                      );
+                    }
+                    return null;
+                  })}
+                </div>
+              </AccordionDetails>
+            </Accordion>
+          ))}
         </section>
       </main>
     </>

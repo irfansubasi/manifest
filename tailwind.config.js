@@ -6,7 +6,13 @@ export default {
       transitionDuration: {
         9000: '9000ms',
       },
+      fontFamily: {
+        'IvyMode-Regular': ['IvyMode-Regular', 'sans-serif'],
+        'IvyMode-SemiBold': ['IvyMode-SemiBold', 'sans-serif'],
+        'IvyMode-Bold': ['IvyMode-Bold', 'sans-serif'],
+      },
     },
   },
+  important: true,
   plugins: [],
 };

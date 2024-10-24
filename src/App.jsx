@@ -17,6 +17,7 @@ import Typography from '@mui/material/Typography';
 import MenuItem from './components/MenuItem';
 
 import menuData from './data/menu.json';
+import Footer from './components/Footer';
 
 function App() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -99,70 +100,97 @@ function App() {
       </header>
       <main>
         <section className="info-section container mx-auto">
-          <div className="flex flex-col md:flex-row items-center justify-between mt-56">
-            <div className="w-full md:w-1/2" data-aos="fade-left">
-              <img
-                src="./assets/images/entrance.webp"
-                alt="Sol Resim"
-                className="w-full h-auto rounded"
-              />
-            </div>
-
-            <div
-              className="w-full md:w-1/2 p-8 card-text"
-              data-aos="fade-right"
+          <div className="about-us mt-56">
+            <h1
+              data-aos="fade-up"
+              className="text-center text-6xl font-IvyMode-Bold mb-10"
             >
-              <p className="text-lg">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Aperiam placeat autem perspiciatis molestiae molestias, beatae
-                reiciendis ea est nisi magnam.
-                <br />
-                <br />
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Expedita natus odit voluptate error aperiam saepe.
-                <br />
-                <br />
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas aliquam nulla, dolor dolorum magni perspiciatis iste
-                soluta voluptatibus tenetur nemo recusandae obcaecati neque nam
-                inventore.
-              </p>
+              Hakkımızda
+            </h1>
+            <div className="flex flex-col md:flex-row items-center justify-between">
+              <div className="w-full md:w-1/2" data-aos="fade-left">
+                <img
+                  src="./assets/images/entrance.webp"
+                  alt="Sol Resim"
+                  className="w-full h-auto rounded"
+                />
+              </div>
+
+              <div
+                className="w-full md:w-1/2 p-8 card-text"
+                data-aos="fade-right"
+              >
+                <p className="text-lg">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aperiam placeat autem perspiciatis molestiae molestias, beatae
+                  reiciendis ea est nisi magnam.
+                  <br />
+                  <br />
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Expedita natus odit voluptate error aperiam saepe.
+                  <br />
+                  <br />
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas aliquam nulla, dolor dolorum magni perspiciatis iste
+                  soluta voluptatibus tenetur nemo recusandae obcaecati neque
+                  nam inventore.
+                </p>
+              </div>
             </div>
           </div>
-          <div className="flex flex-col-reverse md:flex-row items-center justify-between mt-44">
-            <div className="w-full md:w-1/2 p-8 card-text" data-aos="fade-left">
-              <p className="text-lg">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Aperiam placeat autem perspiciatis molestiae molestias, beatae
-                reiciendis ea est nisi magnam.
-                <br />
-                <br />
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Expedita natus odit voluptate error aperiam saepe.
-                <br />
-                <br />
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas aliquam nulla, dolor dolorum magni perspiciatis iste
-                soluta voluptatibus tenetur nemo recusandae obcaecati neque nam
-                inventore.
-              </p>
-            </div>
-            <div className="w-full md:w-1/2" data-aos="fade-right">
-              <img
-                src="./assets/images/food1.jpg"
-                alt="Sol Resim"
-                className="w-full h-auto rounded"
-              />
+
+          <div className="desc1 mt-56">
+            <h1
+              data-aos="fade-up"
+              className="text-center text-6xl font-IvyMode-Bold mb-10"
+            >
+              Lorem
+            </h1>
+            <div className="flex flex-col-reverse md:flex-row items-center justify-between">
+              <div
+                className="w-full md:w-1/2 p-8 card-text"
+                data-aos="fade-left"
+              >
+                <p className="text-lg">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Aperiam placeat autem perspiciatis molestiae molestias, beatae
+                  reiciendis ea est nisi magnam.
+                  <br />
+                  <br />
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Expedita natus odit voluptate error aperiam saepe.
+                  <br />
+                  <br />
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas aliquam nulla, dolor dolorum magni perspiciatis iste
+                  soluta voluptatibus tenetur nemo recusandae obcaecati neque
+                  nam inventore.
+                </p>
+              </div>
+              <div className="w-full md:w-1/2" data-aos="fade-right">
+                <img
+                  src="./assets/images/food1.jpg"
+                  alt="Sol Resim"
+                  className="w-full h-auto rounded"
+                />
+              </div>
             </div>
           </div>
         </section>
 
-        <section className="menu-section container mx-auto text-center py-12">
-          <h1 className="mb-8 text-4xl font-IvyMode-Bold">MENÜ</h1>
+        <section className="menu-section container mx-auto text-center mt-52 py-12">
+          <h1 data-aos="fade-up" className="mb-8 text-6xl font-IvyMode-Bold">
+            MENÜ
+          </h1>
           {Object.keys(menuData).map((categoryKey, categoryIndex) => (
             <Accordion
+              data-aos="zoom-in"
               key={categoryIndex}
-              className="bg-[#2b251b] text-[#b59f73]"
+              className={`bg-transparent text-[#b59f73] shadow-none drop-shadow-none py-4 ${
+                categoryIndex !== Object.keys(menuData).length - 1
+                  ? 'border-b border-[#b59f73] mx-8'
+                  : ''
+              }`}
               expanded={expanded === `panel${categoryIndex}`}
               onChange={handleChange(`panel${categoryIndex}`)}
             >
@@ -197,6 +225,7 @@ function App() {
           ))}
         </section>
       </main>
+      <Footer />
     </>
   );
 }

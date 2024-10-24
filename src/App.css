@@ -1,3 +1,7 @@
 .contact ul {
   font-family: 'Poppins Regular', sans-serif;
 }
+
+.card-text {
+  background: var(--light-brown);
+}

@@ -220,7 +220,7 @@ function App() {
           {Object.keys(menuData).map((categoryKey, categoryIndex) => (
             <Accordion
               key={categoryIndex}
-              className={`bg-transparent text-[#b59f73] shadow-none drop-shadow-none py-4 ${
+              className={`bg-transparent text-[#b59f73] shadow-none drop-shadow-none ${
                 categoryIndex !== Object.keys(menuData).length - 1
                   ? 'border-b border-[#b59f73] md:mx-8'
                   : ''

@@ -45,8 +45,13 @@ function Navbar() {
             isOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
         >
-          <div className="flex justify-center items-center h-full">
-            <ul className="font-IvyMode-Regular text-[#b59f73] text-7xl space-y-8 text-center">
+          <div className="flex flex-col justify-center items-center h-full">
+            <img
+              className="w-[10rem] mb-[5rem]"
+              src="./assets/manifestgold.png"
+              alt="logo"
+            />
+            <ul className="font-IvyMode-Regular text-[#b59f73] text-5xl md:text-7xl space-y-8 text-center">
               <li>
                 <a
                   className="hover:underline"
@@ -71,7 +76,7 @@ function Navbar() {
                   href="#lorem"
                   onClick={toggleMenu}
                 >
-                  İstenilen Bölüm
+                  Lorem
                 </a>
               </li>
               <li>

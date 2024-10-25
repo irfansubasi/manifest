@@ -135,7 +135,7 @@ function App() {
       </header>
       <main>
         <section className="info-section container mx-auto">
-          <div id="about" className="about-us mt-56">
+          <div id="about" className="about-us mt-20">
             <h1
               data-aos="fade-up"
               className="flex items-center justify-center text-center text-6xl font-IvyMode-Bold mb-10"
@@ -174,7 +174,7 @@ function App() {
             </div>
           </div>
 
-          <div className="desc1 mt-56" id="lorem">
+          <div className="desc1 mt-40" id="lorem">
             <h1
               data-aos="fade-up"
               className="text-center text-6xl font-IvyMode-Bold mb-10"
@@ -212,7 +212,7 @@ function App() {
 
         <section
           id="menu"
-          className="menu-section container mx-auto text-center mt-52 py-12"
+          className="menu-section container mx-auto text-center mt-40 py-12"
         >
           <h1 data-aos="fade-up" className="mb-8 text-6xl font-IvyMode-Bold">
             — MENÜ —
@@ -262,7 +262,7 @@ function App() {
           ))}
         </section>
 
-        <section id="reservation" className="res-section">
+        <section id="reservation" className="res-section  mt-40">
           <div className="res-div md:h-[100vh] flex flex-col md:flex-row items-center justify-center md:justify-between">
             <div className="res-img w-full md:w-1/2 z-40" data-aos="fade-right">
               <img

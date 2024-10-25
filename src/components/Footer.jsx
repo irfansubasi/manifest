@@ -2,7 +2,7 @@ import logo from '../assets/manifestgold.png';
 import logo2 from '..//assets/manifestalone.png';
 const Footer = () => {
   return (
-    <footer className="bg-transparent text-[#b59f73] py-10">
+    <footer className="bg-transparent text-[#b59f73] py-24">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         <div className="flex flex-col space-y-4 text-center md:text-left">
           <div className="flex justify-center md:justify-start items-center ">

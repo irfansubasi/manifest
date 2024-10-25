@@ -147,7 +147,7 @@ function App() {
           <div id="about" className="about-us mt-20">
             <h1
               data-aos="fade-up"
-              className="flex items-center justify-center text-center text-6xl font-IvyMode-Bold mb-10"
+              className="flex items-center justify-center text-center text-5xl md:text-6xl font-IvyMode-Bold mb-10"
             >
               — Hakkımızda —
             </h1>
@@ -186,7 +186,7 @@ function App() {
           <div className="desc1 mt-40" id="lorem">
             <h1
               data-aos="fade-up"
-              className="text-center text-6xl font-IvyMode-Bold mb-10"
+              className="text-center text-5xl md:text-6xl font-IvyMode-Bold mb-10"
             >
               — Lorem —
             </h1>
@@ -223,7 +223,10 @@ function App() {
           id="menu"
           className="menu-section container mx-auto text-center mt-40 py-12"
         >
-          <h1 data-aos="fade-up" className="mb-8 text-6xl font-IvyMode-Bold">
+          <h1
+            data-aos="fade-up"
+            className="mb-8 text-5xl md:text-6xl font-IvyMode-Bold"
+          >
             — MENÜ —
           </h1>
           {Object.keys(menuData).map((categoryKey, categoryIndex) => (

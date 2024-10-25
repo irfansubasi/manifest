@@ -11,14 +11,12 @@ const Footer = () => {
             </h2>
             <img src={logo2} alt="Logo" className="w-40 hidden md:block" />
           </div>
-          <p className="text-md md:text-base md:text-lg">
+          <p className="text-base">
             Atakent, 6398. Sk. 1/A, 35550 <br /> Karşıyaka/İzmir
           </p>
           <div className="flex flex-col space-y-2">
-            <p className="text-md md:text-base md:text-lg">+905380247094</p>
-            <p className="text-md md:text-base md:text-lg">
-              manifest@gmail.com
-            </p>
+            <p className="text-base">+905380247094</p>
+            <p className="text-base">manifest@gmail.com</p>
           </div>
         </div>
 
@@ -93,7 +91,7 @@ const Footer = () => {
       </div>
 
       <div className="container mx-auto border-t border-[#b59f73] mt-10 pt-6 text-center">
-        <p className="text-stone-600 font-poppins text-xs sm:text-sm md:text-base tracking-[0.25em]">
+        <p className="text-stone-600 font-poppins text-sm tracking-[0.25em]">
           COPYRIGHT 2024 © MANIFEST, ALL RIGHTS RESERVED
         </p>
       </div>

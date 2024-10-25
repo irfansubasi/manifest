@@ -117,16 +117,24 @@ function App() {
             </SwiperSlide>
           </Swiper>
         </div>
-        <div className="contact absolute bottom-[50px] left-[50px]">
+        <div className="contact absolute bottom-[50px] left-[50%]">
           <ul className="flex gap-x-5">
             <li>
-              <a target="_blank" href="https://wa.me/905464781881">
+              <a
+                className="hover:underline"
+                target="_blank"
+                href="https://wa.me/905464781881"
+              >
                 WHATSAPP
               </a>
             </li>
             <span> | </span>
             <li>
-              <a target="_blank" href="tel:05331451741">
+              <a
+                className="hover:underline"
+                target="_blank"
+                href="tel:05331451741"
+              >
                 HEMEN ARA
               </a>
             </li>
@@ -220,7 +228,7 @@ function App() {
           {Object.keys(menuData).map((categoryKey, categoryIndex) => (
             <Accordion
               key={categoryIndex}
-              className={`bg-transparent text-[#b59f73] shadow-none drop-shadow-none ${
+              className={`bg-transparent text-[#b59f73] shadow-none drop-shadow-none my-5 ${
                 categoryIndex !== Object.keys(menuData).length - 1
                   ? 'border-b border-[#b59f73] md:mx-8'
                   : ''

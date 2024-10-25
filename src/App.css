@@ -29,6 +29,10 @@
   width: 5rem;
 }
 
+.contact {
+  transform: translate(-50%, -50%);
+}
+
 @media (max-width: 1325px) {
   .res-text {
     padding: 2rem !important;

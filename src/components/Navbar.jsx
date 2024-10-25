@@ -23,17 +23,17 @@ function Navbar() {
             onClick={toggleMenu}
           >
             <div
-              className={`w-8 h-1 bg-[#b59f73] mb-1 transition-transform duration-300 ${
+              className={`rounded w-8 h-1 bg-[#b59f73] mb-1 transition-transform duration-300 ${
                 isOpen ? 'rotate-45 translate-y-2' : ''
               }`}
             ></div>
             <div
-              className={`w-8 h-1 bg-[#b59f73] mb-1 transition-opacity duration-300 ${
+              className={`rounded w-8 h-1 bg-[#b59f73] mb-1 transition-opacity duration-300 ${
                 isOpen ? 'opacity-0' : ''
               }`}
             ></div>
             <div
-              className={`w-8 h-1 bg-[#b59f73] transition-transform duration-300 ${
+              className={`rounded w-8 h-1 bg-[#b59f73] transition-transform duration-300 ${
                 isOpen ? '-rotate-45 -translate-y-2' : ''
               }`}
             ></div>

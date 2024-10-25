@@ -19,7 +19,7 @@ function Navbar() {
       >
         <div className="relative z-[100]">
           <button
-            className="text-white p-3 focus:outline-none fixed top-[75px] left-10"
+            className="text-white p-3 focus:outline-none fixed top-[60px] left-10"
             onClick={toggleMenu}
           >
             <div

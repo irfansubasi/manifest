@@ -138,9 +138,9 @@ function App() {
           <div id="about" className="about-us mt-56">
             <h1
               data-aos="fade-up"
-              className="text-center text-6xl font-IvyMode-Bold mb-10"
+              className="flex items-center justify-center text-center text-6xl font-IvyMode-Bold mb-10"
             >
-              Hakkımızda
+              — Hakkımızda —
             </h1>
             <div className="flex flex-col md:flex-row items-center justify-between">
               <div className="w-full md:w-1/2" data-aos="fade-left">
@@ -179,7 +179,7 @@ function App() {
               data-aos="fade-up"
               className="text-center text-6xl font-IvyMode-Bold mb-10"
             >
-              Lorem
+              — Lorem —
             </h1>
             <div className="flex flex-col-reverse md:flex-row items-center justify-center">
               <div className="w-full p-8 card-text" data-aos="fade-left">
@@ -215,7 +215,7 @@ function App() {
           className="menu-section container mx-auto text-center mt-52 py-12"
         >
           <h1 data-aos="fade-up" className="mb-8 text-6xl font-IvyMode-Bold">
-            MENÜ
+            — MENÜ —
           </h1>
           {Object.keys(menuData).map((categoryKey, categoryIndex) => (
             <Accordion

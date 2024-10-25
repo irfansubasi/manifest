@@ -25,6 +25,10 @@
   z-index: 1;
 }
 
+.divider-img {
+  width: 5rem;
+}
+
 @media (max-width: 1325px) {
   .res-text {
     padding: 2rem !important;

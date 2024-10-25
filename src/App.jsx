@@ -263,7 +263,7 @@ function App() {
         </section>
 
         <section id="reservation" className="res-section">
-          <div className="res-div h-[100vh] flex flex-col md:flex-row items-center justify-center md:justify-between">
+          <div className="res-div md:h-[100vh] flex flex-col md:flex-row items-center justify-center md:justify-between">
             <div className="res-img w-full md:w-1/2 z-40" data-aos="fade-right">
               <img
                 src="./assets/images/4.webp"

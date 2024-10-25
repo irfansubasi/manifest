@@ -17,11 +17,17 @@
 html {
   font-size: 16px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   background-color: var(--dark-brown);
   color: var(--gold);
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
+}
+
+@media (max-height: 960px) {
+  html {
+    font-size: 12px;
+  }
 }

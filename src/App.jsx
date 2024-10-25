@@ -222,7 +222,7 @@ function App() {
               key={categoryIndex}
               className={`bg-transparent text-[#b59f73] shadow-none drop-shadow-none py-4 ${
                 categoryIndex !== Object.keys(menuData).length - 1
-                  ? 'border-b border-[#b59f73] mx-8'
+                  ? 'border-b border-[#b59f73] md:mx-8'
                   : ''
               }`}
               expanded={expanded === `panel${categoryIndex}`}
@@ -239,7 +239,7 @@ function App() {
                   {menuData[categoryKey].title}
                 </Typography>
               </AccordionSummary>
-              <AccordionDetails>
+              <AccordionDetails className="p-0">
                 <div>
                   {menuData[categoryKey].items.map((item, index) => {
                     if (index % 2 === 0) {

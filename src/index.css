@@ -27,7 +27,7 @@ body {
   overflow-x: hidden !important;
 }
 
-@media (max-height: 960px) {
+@media (max-width: 960px) {
   html {
     font-size: 12px;
   }

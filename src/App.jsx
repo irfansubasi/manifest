@@ -70,7 +70,7 @@ function App() {
             src={logo}
             alt=""
             className={`${
-              isLogoFixed ? 'fixed top-[-25px] md:top-[-40px] transition' : ''
+              isLogoFixed ? 'fixed top-[15px] md:top-[-40px] transition' : ''
             } w-[40rem] transition-transform duration-1000`}
             style={{ transform: `scale(${logoScale})` }}
           />

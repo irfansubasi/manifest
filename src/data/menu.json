@@ -1,136 +1,236 @@
 {
-  "seafood": {
-    "title": "Deniz Ürünleri",
+  "cold": {
+    "title": "Soğuklar",
     "items": [
       {
         "id": 1,
-        "name": "Izgara Levrek",
-        "description": "Taze levrek, zeytinyağı ve baharatlarla ızgara."
+        "name": "Atom",
+        "price": "220₺"
       },
       {
         "id": 2,
-        "name": "Karides Güveç",
-        "description": "Karides, domates sosu ve baharatlarla pişirilmiş güveç."
+        "name": "Barbunya Pilaki",
+        "price": "220₺"
       },
       {
         "id": 3,
-        "name": "Kalamar Tava",
-        "description": "Pane harcı ile kaplanmış kalamar, yanında aioli sos ile."
+        "name": "Enginarlı Fava",
+        "price": "220₺"
       },
       {
         "id": 4,
-        "name": "Sushi Tabak",
-        "description": "Çeşitli sushi ruloları ve sashimi."
+        "name": "Tekmil Fava",
+        "price": "220₺"
       },
       {
         "id": 5,
-        "name": "Levrek Ceviche",
-        "description": "Marinade edilmiş levrek, limon suyu ve sebzelerle servis edilir."
+        "name": "Lakerda (İstanbul Tunç Balık)",
+        "price": "540₺"
       },
       {
         "id": 6,
-        "name": "Somon Izgara",
-        "description": "Zeytinyağı ve baharatlarla marine edilmiş, ızgarada pişirilmiş somon."
+        "name": "Manifest",
+        "price": "240₺"
       },
       {
         "id": 7,
-        "name": "Karides Tava",
-        "description": "Taze karides, baharatlarla sotelenmiş."
+        "name": "Levrek Marin",
+        "price": "340₺"
       },
       {
         "id": 8,
-        "name": "Balık Tacos",
-        "description": "Izgara balık, sebzeler ve salsa ile tortilla içinde."
-      }
-    ]
-  },
-  "alcohol": {
-    "title": "Alkollü İçecekler",
-    "items": [
-      {
-        "id": 1,
-        "name": "Chardonnay",
-        "description": "Fransız Chardonnay, hafif ve meyvemsi bir tat."
-      },
-      {
-        "id": 2,
-        "name": "Merlot",
-        "description": "Kırmızı Merlot, yumuşak tanenli ve zengin bir tat."
-      },
-      {
-        "id": 3,
-        "name": "Bira",
-        "description": "Serinletici ve hafif."
-      },
-      {
-        "id": 4,
-        "name": "Meyve Şarapları",
-        "description": "Ev yapımı meyve şarapları, değişken tatlarla."
-      },
-      {
-        "id": 5,
-        "name": "Prosecco",
-        "description": "İtalyan köpüklü şarabı, hafif ve ferahlatıcı."
-      },
-      {
-        "id": 6,
-        "name": "Mojito",
-        "description": "Beyaz rom, taze nane, şeker, limon suyu ve soda ile hazırlanmış ferahlatıcı bir kokteyl."
-      },
-      {
-        "id": 7,
-        "name": "Pina Colada",
-        "description": "Rom, hindistancevizi sütü ve ananas suyu ile hazırlanan tropikal bir kokteyl."
-      },
-      {
-        "id": 8,
-        "name": "Negroni",
-        "description": "Gin, vermut ve Campari ile yapılan klasik İtalyan kokteyli."
+        "name": "Nuran",
+        "price": "220₺"
       },
       {
         "id": 9,
-        "name": "Daiquiri",
-        "description": "Beyaz rom, limon suyu ve şeker ile yapılan ferahlatıcı bir kokteyl."
+        "name": "Rakılı Peynir Ezme",
+        "price": "240₺"
       },
       {
         "id": 10,
-        "name": "Caipirinha",
-        "description": "Brezilya'nın yerel içkisi cachaça, şeker ve lime ile hazırlanır."
+        "name": "Portakallı Kereviz",
+        "price": "240₺"
       },
       {
         "id": 11,
-        "name": "Sangria",
-        "description": "Şarap, meyve parçaları ve soda ile yapılan serinletici bir içecek."
+        "name": "3 Günlük Salata Turşusu",
+        "price": "190₺"
       },
       {
         "id": 12,
-        "name": "Bellini",
-        "description": "Şampanya ve şeftali püresi ile yapılan İtalyan içeceği."
+        "name": "Sardalya Marin",
+        "price": "320₺"
+      },
+      {
+        "id": 13,
+        "name": "Babaganus",
+        "price": "220₺"
+      },
+      {
+        "id": 14,
+        "name": "Tarama",
+        "price": "380₺"
+      },
+      {
+        "id": 15,
+        "name": "Deniz Börülcesi",
+        "price": "220₺"
+      },
+      {
+        "id": 16,
+        "name": "Kuru Meyve Cacık",
+        "price": "220₺"
+      },
+      {
+        "id": 17,
+        "name": "Ekşi Meyve Cacık",
+        "price": "220₺"
+      },
+      {
+        "id": 18,
+        "name": "Pancar Turşusu",
+        "price": "190₺"
+      },
+      {
+        "id": 19,
+        "name": "Köpeoğlu",
+        "price": "220₺"
       }
     ]
   },
-  "italian_dishes": {
-    "title": "İtalyan Yemekleri",
+  "salads": {
+    "title": "Salatalar",
     "items": [
       {
         "id": 1,
-        "name": "Spaghetti Aglio e Olio",
-        "description": "Sarımsak, zeytinyağı ve pul biber ile hazırlanan klasik İtalyan makarnası."
+        "name": "Kuru Domatesli Roka Salatası",
+        "price": "340₺"
       },
       {
         "id": 2,
-        "name": "Margherita Pizza",
-        "description": "Domates sosu, mozzarella peyniri ve taze fesleğen ile yapılan pizza."
+        "name": "İstanbul Usulü Domates Salatası",
+        "price": "340₺"
       },
       {
         "id": 3,
-        "name": "Risotto",
-        "description": "Kremalı pirinç risottosu, mantar ve sebzelerle."
+        "name": "Kırma Salata",
+        "price": "340₺"
       },
       {
         "id": 4,
-        "name": "Lasagna",
-        "description": "Kat kat makarna, et sosu ve beşamel sos ile yapılan klasik İtalyan yemeği."
+        "name": "Roka Domates Salatası",
+        "price": "340₺"
+      },
+      {
+        "id": 5,
+        "name": "Mevsim Salatası",
+        "price": "340₺"
+      },
+      {
+        "id": 6,
+        "name": "Yedi Kule Salatası",
+        "price": "340₺"
+      }
+    ]
+  },
+  "hots": {
+    "title": "Sıcaklar",
+    "items": [
+      {
+        "id": 1,
+        "name": "Kalamar Izgara",
+        "price": "480₺"
+      },
+      {
+        "id": 2,
+        "name": "Balık Kokoreç",
+        "price": "480₺"
+      },
+      {
+        "id": 3,
+        "name": "Mücver Izgara",
+        "price": "320₺"
+      },
+      {
+        "id": 4,
+        "name": "Kalamar Tava",
+        "price": "480₺"
+      },
+      {
+        "id": 5,
+        "name": "Karides Güveç",
+        "price": "640₺"
+      },
+      {
+        "id": 6,
+        "name": "İstiridye Tempura",
+        "price": "380₺"
+      },
+      {
+        "id": 7,
+        "name": "Karides Mantı",
+        "price": "480₺"
+      },
+      {
+        "id": 8,
+        "name": "Beğendili Ahtapot",
+        "price": "640₺"
+      },
+      {
+        "id": 9,
+        "name": "Ciğer Tava",
+        "price": "480₺"
+      },
+      {
+        "id": 10,
+        "name": "Ev Usulü Patates",
+        "price": "190₺"
+      },
+      {
+        "id": 11,
+        "name": "Domates Soslu Spagetti",
+        "price": "380₺"
+      },
+      {
+        "id": 12,
+        "name": "Deniz Mahsülü Spagetti",
+        "price": "540₺"
+      },
+      {
+        "id": 13,
+        "name": "Ev Usulü Köfte",
+        "price": "380₺"
+      },
+      {
+        "id": 14,
+        "name": "Izgara Bonfile",
+        "price": "640₺"
+      },
+      {
+        "id": 15,
+        "name": "Sıcak Ege Otları",
+        "price": "280₺"
+      },
+      {
+        "id": 16,
+        "name": "Çıtır Balık",
+        "price": "420₺"
+      },
+      {
+        "id": 17,
+        "name": "Beyaz Şarap Soslu Kum Midyesi",
+        "price": "640₺"
+      },
+      {
+        "id": 18,
+        "name": "Hamsi Tava",
+        "price": "340₺"
+      },
+      {
+        "id": 19,
+        "name": "Sardalya Şiş",
+        "price": "340₺"
       }
     ]
   },
@@ -139,53 +239,48 @@
     "items": [
       {
         "id": 1,
-        "name": "Mille-Feuille",
-        "description": "Kat kat milföy hamuru ve vanilya kreması ile yapılan Fransız tatlısı."
+        "name": "Tahinli & Çikolatalı Fondü",
+        "price": "440₺"
       },
       {
         "id": 2,
-        "name": "Pavlova",
-        "description": "Mereng tabanı üzerinde krema ve taze meyveler ile sunulan hafif tatlı."
+        "name": "Helvalı Creme Brulee",
+        "price": "440₺"
       },
       {
         "id": 3,
-        "name": "Crème Brûlée",
-        "description": "Vanilyalı krema, üzeri karamelize şeker ile kaplanmış klasik Fransız tatlısı."
+        "name": "Tahinli Uyutma",
+        "price": "440₺"
       },
       {
         "id": 4,
-        "name": "Tiramisu",
-        "description": "Kahve, mascarpone peyniri ve kakao ile hazırlanan zengin İtalyan tatlısı."
+        "name": "Balkabaklı Krem Dantel",
+        "price": "440₺"
+      }
+    ]
+  },
+  "Cocktail": {
+    "title": "Kokteyller",
+    "items": [
+      {
+        "id": 1,
+        "name": "NO1",
+        "price": "440₺"
       },
       {
-        "id": 5,
-        "name": "Chocolate Soufflé",
-        "description": "Hafif ve kabarık çikolatalı sufle, sıcak servis edilir."
+        "id": 2,
+        "name": "NO2",
+        "price": "440₺"
       },
       {
-        "id": 6,
-        "name": "Cheesecake",
-        "description": "Kremalı peynirle yapılan, bisküvi tabanlı ve üzerine meyve sosu eklenmiş tatlı."
+        "id": 3,
+        "name": "NO3",
+        "price": "440₺"
       },
       {
-        "id": 7,
-        "name": "Fruit Tart",
-        "description": "Kıtır hamur, pastacı kreması ve taze meyveler ile hazırlanan özel tatlı."
-      },
-      {
-        "id": 8,
-        "name": "Saffron Panna Cotta",
-        "description": "Safran ile zenginleştirilmiş, kremsi bir İtalyan tatlısı."
-      },
-      {
-        "id": 9,
-        "name": "Gulab Jamun",
-        "description": "Şeker şerbetinde bekletilen, kızartılmış süt tozu topları, Hint mutfağına özgü."
-      },
-      {
-        "id": 10,
-        "name": "Baklava",
-        "description": "Kat kat hamur ile yapılan, ceviz ve fıstık ile doldurulmuş, şerbetli geleneksel tatlı."
+        "id": 4,
+        "name": "NO4",
+        "price": "440₺"
       }
     ]
   }

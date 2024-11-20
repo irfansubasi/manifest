@@ -126,7 +126,7 @@ function App() {
                 target="_blank"
                 href="https://wa.me/905380247094"
               >
-                WHATSAPP 5380247094
+                WHATSAPP
               </a>
             </li>
             <span> | </span>

@@ -12,10 +12,10 @@ const Footer = () => {
             <img src={logo2} alt="Logo" className="w-40 hidden md:block" />
           </div>
           <p className="text-base">
-            Atakent, 6398. Sk. 1/A, 35550 <br /> Karşıyaka/İzmir
+            Yalı Mah, 6436 Sk, no 120, 35550 <br /> Karşıyaka/İzmir
           </p>
           <div className="flex flex-col space-y-2">
-            <p className="text-base">+905380247094</p>
+            <p className="text-base">+90 530 729 76 86</p>
             <p className="text-base">manifest@gmail.com</p>
           </div>
         </div>
@@ -63,7 +63,7 @@ const Footer = () => {
 
       <div className="mt-24 mb-14 flex flex-col sm:flex-row justify-center items-center space-x-0 sm:space-x-6 space-y-1 sm:space-y-0">
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/manifestrestoran/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:underline text-sm sm:text-base md:text-lg"
@@ -72,7 +72,7 @@ const Footer = () => {
         </a>
         <span className="hidden md:inline">|</span>
         <a
-          href="https://wa.me/905464781881"
+          href="https://wa.me/905380247094"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:underline text-sm sm:text-base md:text-lg"

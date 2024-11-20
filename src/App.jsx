@@ -124,9 +124,9 @@ function App() {
               <a
                 className="hover:underline"
                 target="_blank"
-                href="https://wa.me/905464781881"
+                href="https://wa.me/905380247094"
               >
-                WHATSAPP
+                WHATSAPP 5380247094
               </a>
             </li>
             <span> | </span>
@@ -134,7 +134,7 @@ function App() {
               <a
                 className="hover:underline"
                 target="_blank"
-                href="tel:05331451741"
+                href="tel:05307297686"
               >
                 HEMEN ARA
               </a>
@@ -292,30 +292,37 @@ function App() {
                 Rezervasyon için;
               </h1>
               <p className="font-bold">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-                quaerat ab provident ad accusantium, doloremque qui architecto
-                rem dolorem cumque quae quas quisquam ipsa. Beatae doloribus
-                distinctio veniam incidunt accusamus.
+                Manifest’te taze deniz ürünleri, mezeler ve samimi bir atmosfer
+                eşliğinde unutulmaz bir akşam için sizi restoranımıza davet
+                ediyoruz.
                 <br />
                 <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
-                magnam!
+                18 yaş altı misafirlerimizi yalnızca ailesiyle birlikte kabul
+                edebiliyoruz.
                 <br />
                 <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt, amet! Quas reiciendis est assumenda quidem dignissimos
-                ducimus aliquam architecto ad.
+                Çalışma Saatlerimiz:
+                <br />
+                <br />
+                <ul className="list-disc ml-8">
+                  <li>Hafta içi: 17:30 - 00:30</li>
+                  <li>Hafta sonu: 15:30 - 00:30</li>
+                  <li>Pazartesi günleri kapalıyız.</li>
+                </ul>
+                <br />
+                Detaylı bilgi için bize telefonla ulaşabilir veya mesaj
+                gönderebilirsiniz.
                 <br />
                 <br />
                 <ul className="flex gap-x-5">
                   <li>
-                    <a target="_blank" href="https://wa.me/905464781881">
+                    <a target="_blank" href="https://wa.me/905380247094">
                       WHATSAPP
                     </a>
                   </li>
                   <span> | </span>
                   <li>
-                    <a target="_blank" href="tel:05331451741">
+                    <a target="_blank" href="tel:05307297686">
                       HEMEN ARA
                     </a>
                   </li>

@@ -124,7 +124,7 @@ function App() {
               <a
                 className="hover:underline"
                 target="_blank"
-                href="https://wa.me/905380247094"
+                href="https://wa.me/+905307297686"
               >
                 WHATSAPP
               </a>
@@ -134,7 +134,7 @@ function App() {
               <a
                 className="hover:underline"
                 target="_blank"
-                href="tel:05307297686"
+                href="tel:+905307297686"
               >
                 HEMEN ARA
               </a>

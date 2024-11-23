@@ -165,19 +165,22 @@ function App() {
                 data-aos="fade-right"
               >
                 <p className="text-lg">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Aperiam placeat autem perspiciatis molestiae molestias, beatae
-                  reiciendis ea est nisi magnam.
+                  Manifest, sevdiklerinizle keyifle bir araya gelebileceğiniz,
+                  rakı-balık sofralarının sıcaklığını ve Ege’nin tazeliğini bir
+                  arada sunan bir restoran. Bizim için her tabak bir hikâye, her
+                  sohbet bir anı.
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Expedita natus odit voluptate error aperiam saepe.
+                  Mezelerimizden sıcak başlangıçlarımıza, ana yemeklerimizden
+                  servisimize kadar her detayda doğallığı ve özeni hissetmenizi,
+                  denizin lezzetlerini sofranıza en taze haliyle getirmeyi ve
+                  her lokmada bir Ege esintisi sunmayı amaçlıyoruz.
                   <br />
                   <br />
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptas aliquam nulla, dolor dolorum magni perspiciatis iste
-                  soluta voluptatibus tenetur nemo recusandae obcaecati neque
-                  nam inventore.
+                  Manifest’te, dostlarınızla paylaşacağınız sofralar sadece
+                  yemek değil, anlamlı anılara dönüşüyor. Sizi, kendinizi
+                  evinizde gibi hissedeceğiniz bu samimi atmosferde ağırlamaktan
+                  mutluluk duyarız.
                 </p>
               </div>
             </div>

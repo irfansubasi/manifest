@@ -1,7 +1,7 @@
 export default function MenuItem({ leftItem, rightItem }) {
   return (
     <>
-      <div className="bg-[#2b251b] flex flex-col-reverse md:flex-row justify-center items-center">
+      <div className="bg-[#2b251b] flex flex-col md:flex-row justify-center items-center">
         <div className="w-full md:w-1/2 text-center md:text-left md:pl-20 p-10">
           <div>
             <h2 className="text-2xl mb-4 font-bold font-IvyMode-Regular">

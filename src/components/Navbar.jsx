@@ -73,10 +73,10 @@ function Navbar() {
               <li>
                 <a
                   className="hover:underline"
-                  href="#lorem"
+                  href="#fresh"
                   onClick={toggleMenu}
                 >
-                  Lorem
+                  Tazeliğin Hikayesi
                 </a>
               </li>
               <li>

@@ -186,36 +186,45 @@ function App() {
             </div>
           </div>
 
-          <div className="desc1 mt-40" id="lorem">
+          <div className="desc1 mt-40" id="fresh">
             <h1
               data-aos="fade-up"
               className="text-center text-5xl md:text-6xl font-IvyMode-Bold mb-10"
             >
-              — Lorem —
+              — Tazeliğin Hikayesi —
             </h1>
-            <div className="flex flex-col-reverse md:flex-row items-center justify-center">
-              <div className="w-full p-8 card-text" data-aos="fade-left">
+            <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full md:w-[55rem] mx-auto">
+              <div
+                className="w-full md:w-1/2 p-8 md:py-36 card-text"
+                data-aos="fade-left"
+              >
                 <p className="text-lg">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Aperiam placeat autem perspiciatis molestiae molestias, beatae
-                  reiciendis ea est nisi magnam.
+                  Manifest’te lezzet yolculuğunuz sizin tercihlerinizle
+                  başlıyor.
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Expedita natus odit voluptate error aperiam saepe.
+                  Balık reyonumuzda, Ege’nin ve denizlerin en taze seçeneklerini
+                  bizzat görerek ve seçerek bu sürecin bir parçası
+                  olabilirsiniz.
                   <br />
                   <br />
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptas aliquam nulla, dolor dolorum magni perspiciatis iste
-                  soluta voluptatibus tenetur nemo recusandae obcaecati neque
-                  nam inventore.
+                  Seçtiğiniz balık, şeflerimizin ustalığıyla hazırlanıp tam
+                  damak tadınıza uygun bir şekilde sofranıza taşınır.
+                  <br />
+                  <br />
+                  Böylece her lokmada tazeliği ve tercihlerinizin zarafetle
+                  buluştuğu bir deneyim yaşarsınız.
+                  <br />
+                  <br />
+                  Manifest’te, tercih ettiğiniz lezzetlerin en taze ve özenle
+                  sunulmuş haliyle buluşacaksınız.
                 </p>
               </div>
-              <div className="" data-aos="fade-right">
+              <div className="w-full md:w-1/2" data-aos="fade-right">
                 <img
                   src="./assets/images/food1.jpg"
                   alt="Sol Resim"
-                  className="w-[60rem] h-auto rounded"
+                  className="w-full h-auto rounded"
                 />
               </div>
             </div>

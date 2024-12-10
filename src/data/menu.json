@@ -285,52 +285,62 @@
       {
         "id": 1,
         "name": "NO1",
-        "price": "480₺"
+        "price": "480₺",
+        "desc": "Kuru Cacık ile Harmanlanmış Yaş Üzüm Rakı, Gül Vermutu, Vanilya, Bergamot Likörü ve Vodka"
       },
       {
         "id": 2,
         "name": "NO2",
-        "price": "480₺"
+        "price": "480₺",
+        "desc": "Vodka, Kuzu Kulağı, Antep Fıstığı, Vanilya ve Lime Suyu"
       },
       {
         "id": 3,
         "name": "NO3",
-        "price": "480₺"
+        "price": "480₺",
+        "desc": "Kuru İncir ve Chilli Biber ile Demlenmiş Viski, Karadut ve Orman Meyvesi Likörü"
       },
       {
         "id": 4,
         "name": "NO4",
-        "price": "480₺"
+        "price": "480₺",
+        "desc": "Yeşil Elma ve Limon Kabuğunda Demlenmiş Gin, Anason Likörü, Mürver Çiçeği Likörü, Sakız Likörü ve Limon Suyu"
       },
       {
         "id": 5,
         "name": "NO5",
-        "price": "480₺"
+        "price": "480₺",
+        "desc": "Beefeater Gin, Mürver Çiçeği Likörü, Bergamot Likörü ve Fesleğen Cordial"
       },
       {
         "id": 6,
         "name": "NO6",
-        "price": "480₺"
+        "price": "480₺",
+        "desc": "Ananas ile Tatlı Biber Berraklaştırılmış Jameson Black Barrel Viski ve Gül Vermutu"
       },
       {
         "id": 7,
         "name": "Margarita",
-        "price": "480₺"
+        "price": "480₺",
+        "desc": "Altos Plata Tekila, Portakal Likörü ve Lime Suyu"
       },
       {
         "id": 8,
         "name": "Negroni",
-        "price": "480₺"
+        "price": "480₺",
+        "desc": "Gin, Campari, Tatlı Vermut"
       },
       {
         "id": 9,
         "name": "Espresso Martini",
-        "price": "480₺"
+        "price": "480₺",
+        "desc": "Vodka, Kahve Likörü ve Espresso"
       },
       {
         "id": 10,
         "name": "Dry Martini",
-        "price": "480₺"
+        "price": "480₺",
+        "desc": "Malfy Gin ve Beyaz Vermut"
       }
     ]
   }

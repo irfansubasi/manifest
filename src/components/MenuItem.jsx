@@ -7,6 +7,7 @@ export default function MenuItem({ leftItem, rightItem }) {
             <h2 className="text-2xl mb-4 font-bold font-IvyMode-Regular">
               {leftItem.name}
             </h2>
+            <p className="text-base mb-4">{leftItem.desc}</p>
             <p className="text-base mb-4">{leftItem.price}</p>
           </div>
           <div className="border border-[#b59f73] mr-10 hidden md:block"></div>
@@ -20,6 +21,7 @@ export default function MenuItem({ leftItem, rightItem }) {
             <h2 className="text-2xl mb-4 font-bold font-IvyMode-Regular">
               {rightItem.name}
             </h2>
+            <p className="text-base mb-4">{rightItem.desc}</p>
             <p className="text-base mb-4">{rightItem.price}</p>
           </div>
           {rightItem.name == null ? (

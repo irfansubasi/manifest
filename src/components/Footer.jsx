@@ -15,8 +15,16 @@ const Footer = () => {
             Yalı Mah, 6436 Sk, no 120, 35550 <br /> Karşıyaka/İzmir
           </p>
           <div className="flex flex-col space-y-2">
-            <p className="text-base">+90 530 729 76 86</p>
-            <p className="text-base">manifest@gmail.com</p>
+            <a className="text-base" target="_blank" href="tel:+905307297686">
+              +90 530 729 76 86
+            </a>
+            <a
+              className="text-base"
+              target="_blank"
+              href="mailto:manifest@gmail.com"
+            >
+              manifest@gmail.com
+            </a>
           </div>
         </div>
 
@@ -72,7 +80,7 @@ const Footer = () => {
         </a>
         <span className="hidden md:inline">|</span>
         <a
-          href="https://wa.me/905380247094"
+          href="https://wa.me/+905307297686"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:underline text-sm sm:text-base md:text-lg"

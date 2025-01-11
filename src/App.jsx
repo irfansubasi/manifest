@@ -328,13 +328,13 @@ function App() {
                 <br />
                 <ul className="flex gap-x-5">
                   <li>
-                    <a target="_blank" href="https://wa.me/905380247094">
+                    <a target="_blank" href="https://wa.me/+905307297686">
                       WHATSAPP
                     </a>
                   </li>
                   <span> | </span>
                   <li>
-                    <a target="_blank" href="tel:05307297686">
+                    <a target="_blank" href="tel:+905307297686">
                       HEMEN ARA
                     </a>
                   </li>

@@ -313,14 +313,17 @@ function App() {
                 edebiliyoruz.
                 <br />
                 <br />
-                Çalışma Saatlerimiz:
+                <span>
+                  Rezervasyon için:{' '}
+                  <a
+                    className="underline underline-offset-4"
+                    href="https://guest.rezervem.com.tr/Manifest-Restoran?source=webSite"
+                    target="_blank"
+                  >
+                    BURAYA TIKLAYINIZ
+                  </a>
+                </span>
                 <br />
-                <br />
-                <ul className="list-disc ml-8">
-                  <li>Hafta içi: 17:30 - 00:30</li>
-                  <li>Hafta sonu: 15:30 - 00:30</li>
-                  <li>Pazartesi günleri kapalıyız.</li>
-                </ul>
                 <br />
                 Detaylı bilgi için bize telefonla ulaşabilir veya mesaj
                 gönderebilirsiniz.

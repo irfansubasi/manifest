@@ -275,6 +275,7 @@ function App() {
                           key={index}
                           leftItem={leftItem}
                           rightItem={rightItem}
+                          isSingleItem={!rightItem.name}
                         />
                       );
                     }

@@ -2,281 +2,88 @@
   "cold": {
     "title": "Soğuklar",
     "items": [
-      {
-        "id": 1,
-        "name": "Atom",
-        "price": "220₺"
-      },
-      {
-        "id": 2,
-        "name": "Barbunya Pilaki",
-        "price": "220₺"
-      },
-      {
-        "id": 3,
-        "name": "Enginarlı Fava",
-        "price": "220₺"
-      },
-      {
-        "id": 4,
-        "name": "Tekmil Fava",
-        "price": "220₺"
-      },
-      {
-        "id": 5,
-        "name": "Lakerda (İstanbul Tunç Balık)",
-        "price": "540₺"
-      },
-      {
-        "id": 6,
-        "name": "Manifest",
-        "price": "240₺"
-      },
-      {
-        "id": 7,
-        "name": "Levrek Marin",
-        "price": "340₺"
-      },
-      {
-        "id": 8,
-        "name": "Nuran",
-        "price": "220₺"
-      },
-      {
-        "id": 9,
-        "name": "Rakılı Peynir Ezme",
-        "price": "240₺"
-      },
-      {
-        "id": 10,
-        "name": "Portakallı Kereviz",
-        "price": "240₺"
-      },
-      {
-        "id": 11,
-        "name": "3 Günlük Salata Turşusu",
-        "price": "190₺"
-      },
-      {
-        "id": 12,
-        "name": "Sardalya Marin",
-        "price": "320₺"
-      },
-      {
-        "id": 13,
-        "name": "Babaganus",
-        "price": "220₺"
-      },
-      {
-        "id": 14,
-        "name": "Tarama",
-        "price": "380₺"
-      },
-      {
-        "id": 15,
-        "name": "Deniz Börülcesi",
-        "price": "220₺"
-      },
-      {
-        "id": 16,
-        "name": "Kuru Meyve Cacık",
-        "price": "220₺"
-      },
-      {
-        "id": 17,
-        "name": "Ekşi Meyve Cacık",
-        "price": "220₺"
-      },
-      {
-        "id": 18,
-        "name": "Pancar Turşusu",
-        "price": "190₺"
-      },
-      {
-        "id": 19,
-        "name": "Köpeoğlu",
-        "price": "220₺"
-      },
-      {
-        "id": 20,
-        "name": "Köy Koruğu Turşusu",
-        "price": "190₺"
-      },
-      {
-        "id": 21,
-        "name": "Köz Patlıcan",
-        "price": "220₺"
-      }
+      { "id": 1, "name": "Zeytinyağlı Enginar" },
+      { "id": 2, "name": "Keçi Peynirli Pancar" },
+      { "id": 3, "name": "Atom" },
+      { "id": 4, "name": "Barbunya Pilaki" },
+      { "id": 5, "name": "Enginarlı Fava" },
+      { "id": 6, "name": "Tekmil Fava" },
+      { "id": 7, "name": "Lakerda" },
+      { "id": 8, "name": "Manifest" },
+      { "id": 9, "name": "Hardallı Levrek Marin" },
+      { "id": 10, "name": "Nuran" },
+      { "id": 11, "name": "Rakılı Peynir Ezme" },
+      { "id": 12, "name": "Alabaş Cacık" },
+      { "id": 13, "name": "3 Günlük Salata Turşusu" },
+      { "id": 14, "name": "Sardalya Marin" },
+      { "id": 15, "name": "Babaganus" },
+      { "id": 16, "name": "Tarama" },
+      { "id": 17, "name": "Kaya Koruğu Turşusu" },
+      { "id": 18, "name": "Ekşi Meyveli Cacık" },
+      { "id": 19, "name": "Pancar Turşusu" },
+      { "id": 20, "name": "Köpeoğlu" },
+      { "id": 21, "name": "Kuru Meyveli Cacık" },
+      { "id": 22, "name": "Yoğurtlu Patlıcan" },
+      { "id": 23, "name": "Füme Uskumru" },
+      { "id": 24, "name": "Füme Hamsi" },
+      { "id": 25, "name": "Avokadolu Karides" },
+      { "id": 26, "name": "Köy Biber Kızartma" },
+      { "id": 27, "name": "Deniz Börülcesi" }
     ]
   },
   "salads": {
     "title": "Salatalar",
     "items": [
-      {
-        "id": 1,
-        "name": "Tulum Peynirli Roka Salatası",
-        "price": "340₺"
-      },
-      {
-        "id": 2,
-        "name": "İstanbul Usulü Domates Salatası",
-        "price": "340₺"
-      },
-      {
-        "id": 3,
-        "name": "Beyaz Peynirli Roka Domates Salatası",
-        "price": "340₺"
-      },
-      {
-        "id": 4,
-        "name": "Mevsim Salatası",
-        "price": "340₺"
-      },
-      {
-        "id": 5,
-        "name": "Gavurdağı Salatası",
-        "price": "340₺"
-      }
+      { "id": 1, "name": "Tulum Peynirli Roka Salatası" },
+      { "id": 2, "name": "İstanbul Usulü Domates Salatası" },
+      { "id": 3, "name": "Beyaz Peynirli Roka Domates Salatası" },
+      { "id": 4, "name": "Gavurdağı Salatası" },
+      { "id": 5, "name": "Yeşil Salata" }
     ]
   },
   "hots": {
     "title": "Sıcaklar",
     "items": [
-      {
-        "id": 1,
-        "name": "Balık Kokoreç",
-        "price": "480₺"
-      },
-      {
-        "id": 2,
-        "name": "Kalamar Izgara",
-        "price": "480₺"
-      },
-      {
-        "id": 3,
-        "name": "Kalamar Tava",
-        "price": "480₺"
-      },
-      {
-        "id": 4,
-        "name": "Mücver Izgara",
-        "price": "320₺"
-      },
-      {
-        "id": 5,
-        "name": "İstiridye Tempura",
-        "price": "380₺"
-      },
-      {
-        "id": 6,
-        "name": "Tereyağlı Güveç",
-        "price": "640₺"
-      },
-      {
-        "id": 7,
-        "name": "Beğendili Ahtapot",
-        "price": "640₺"
-      },
-      {
-        "id": 8,
-        "name": "Karides Mantı",
-        "price": "480₺"
-      },
-      {
-        "id": 9,
-        "name": "Ev Usulü Patates",
-        "price": "190₺"
-      },
-      {
-        "id": 10,
-        "name": "Ciğer Tava",
-        "price": "480₺"
-      },
-      {
-        "id": 11,
-        "name": "Deniz Mahsulü Spagetti",
-        "price": "640₺"
-      },
-      {
-        "id": 12,
-        "name": "Domates Soslu Spagetti",
-        "price": "380₺"
-      },
-      {
-        "id": 13,
-        "name": "Izgara Bonfile",
-        "price": "640₺"
-      },
-      {
-        "id": 14,
-        "name": "Ev Usulü Köfte",
-        "price": "380₺"
-      },
-      {
-        "id": 15,
-        "name": "Sıcak Ege Otları",
-        "price": "280₺"
-      },
-      {
-        "id": 16,
-        "name": "Çıtır Balık",
-        "price": "420₺"
-      },
-      {
-        "id": 17,
-        "name": "Beyaz Şarap Soslu Kum Midyesi",
-        "price": "640₺"
-      },
-      {
-        "id": 18,
-        "name": "Hamsi Tava",
-        "price": "340₺"
-      },
-      {
-        "id": 19,
-        "name": "Sardalya Şiş",
-        "price": "340₺"
-      },
-      {
-        "id": 20,
-        "name": "Levrek Şiş",
-        "price": "480₺"
-      }
+      { "id": 1, "name": "Deniz Mahsulü Börek" },
+      { "id": 2, "name": "Balık Kokoreç" },
+      { "id": 3, "name": "Kalamar Izgara" },
+      { "id": 4, "name": "Kalamar Tava" },
+      { "id": 5, "name": "Humuslu Akya Pastırma" },
+      { "id": 6, "name": "Tereyağlı Karides" },
+      { "id": 7, "name": "Karides Topu" },
+      { "id": 8, "name": "Beğendili Ahtapot" },
+      { "id": 9, "name": "Karides Mantı" },
+      { "id": 10, "name": "Hamsi Tava" },
+      { "id": 11, "name": "Sardalya Şiş" },
+      { "id": 12, "name": "Midye Tempura" },
+      { "id": 13, "name": "Mücver" },
+      { "id": 14, "name": "İstiridye Mantarı Tempura" },
+      { "id": 15, "name": "Patates Cips" },
+      { "id": 16, "name": "Sıcak Ege Otları" },
+      { "id": 17, "name": "Kabak Tempura" },
+      { "id": 18, "name": "Çıtır Balık" },
+      { "id": 19, "name": "Deniz Mahsulü Spagetti" },
+      { "id": 20, "name": "Domates Soslu Spagetti" },
+      { "id": 21, "name": "Ev Usulü Köfte" },
+      { "id": 22, "name": "Ciğer Tava" },
+      { "id": 23, "name": "Izgara Bonfile" },
+      { "id": 24, "name": "Levrek Şiş" },
+      { "id": 25, "name": "Sütte Balık" },
+      { "id": 26, "name": "Dil Şiş" },
+      { "id": 27, "name": "Kırlangıç Kavurma" },
+      { "id": 28, "name": "Enginarlı Levrek" }
     ]
   },
   "desserts": {
     "title": "Tatlılar",
     "items": [
-      {
-        "id": 1,
-        "name": "Tahinli & Çikolatalı Fondü",
-        "price": "440₺"
-      },
-      {
-        "id": 2,
-        "name": "Helvalı Creme Brulee",
-        "price": "440₺"
-      },
-      {
-        "id": 3,
-        "name": "Tahinli Uyutma",
-        "price": "440₺"
-      },
-      {
-        "id": 4,
-        "name": "Balkabaklı Krem Dantel",
-        "price": "440₺"
-      },
-      {
-        "id": 5,
-        "name": "Ayva Tatlısı",
-        "price": "440₺"
-      },
-      {
-        "id": 6,
-        "name": "Manifest Baklava",
-        "price": "440₺"
-      }
+      { "id": 1, "name": "Tahinli & Çikolatalı Fondü" },
+      { "id": 2, "name": "Helvalı Creme Brulee" },
+      { "id": 3, "name": "Tahinli Uyutma" },
+      { "id": 4, "name": "Balkabaklı Krem Dantel" },
+      { "id": 5, "name": "Ayva Tatlısı" },
+      { "id": 6, "name": "Manifest Baklava" },
+      { "id": 7, "name": "Mevsim Meyveleri" }
     ]
   },
   "cocktail": {
@@ -285,61 +92,51 @@
       {
         "id": 1,
         "name": "NO1",
-        "price": "480₺",
-        "desc": "Kuru Cacık ile Harmanlanmış Yaş Üzüm Rakı, Gül Vermutu, Vanilya, Bergamot Likörü ve Vodka"
+        "desc": "Beefater Gin, Tarçın Cordial ve Pudra Şekerli Ekşi Bitter Köpük"
       },
       {
         "id": 2,
         "name": "NO2",
-        "price": "480₺",
         "desc": "Vodka, Kuzu Kulağı, Antep Fıstığı, Vanilya ve Lime Suyu"
       },
       {
         "id": 3,
         "name": "NO3",
-        "price": "480₺",
         "desc": "Kuru İncir ve Chilli Biber ile Demlenmiş Viski, Karadut ve Orman Meyvesi Likörü"
       },
       {
         "id": 4,
         "name": "NO4",
-        "price": "480₺",
         "desc": "Yeşil Elma ve Limon Kabuğunda Demlenmiş Gin, Anason Likörü, Mürver Çiçeği Likörü, Sakız Likörü ve Limon Suyu"
       },
       {
         "id": 5,
         "name": "NO5",
-        "price": "480₺",
         "desc": "Beefeater Gin, Mürver Çiçeği Likörü, Bergamot Likörü ve Fesleğen Cordial"
       },
       {
         "id": 6,
         "name": "NO6",
-        "price": "480₺",
-        "desc": "Ananas ile Tatlı Biber Berraklaştırılmış Jameson Black Barrel Viski ve Gül Vermutu"
+        "desc": "Beefeater Pink Gin, Çilek, Tatlı Ekşi Sos, Lime"
       },
       {
         "id": 7,
         "name": "Margarita",
-        "price": "480₺",
         "desc": "Altos Plata Tekila, Portakal Likörü ve Lime Suyu"
       },
       {
         "id": 8,
         "name": "Negroni",
-        "price": "480₺",
         "desc": "Gin, Campari, Tatlı Vermut"
       },
       {
         "id": 9,
         "name": "Espresso Martini",
-        "price": "480₺",
         "desc": "Vodka, Kahve Likörü ve Espresso"
       },
       {
         "id": 10,
         "name": "Dry Martini",
-        "price": "480₺",
         "desc": "Malfy Gin ve Beyaz Vermut"
       }
     ]
